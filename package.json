@@ -1,0 +1,26 @@
+{
+  "name": "nesting",
+  "version": "0.1.0",
+  "author": "Kasima <kasima@gmail.com>",
+  "description": "For getting cozy with the Nest thermostat.",
+  "keywords": [
+    "nest",
+    "thermostat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasima/nesting-js.git"
+  },
+  "main": "./nesting.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "util": "*",
+    "querystring": "*",
+    "url": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
